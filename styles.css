@@ -1,0 +1,25 @@
+/* Netflix Clone Styles */
+body {
+    background-color: #141414;
+    color: #ffffff;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.navbar {
+    padding: 1rem 2rem;
+}
+
+.hero {
+    padding: 6rem 2rem;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.1) 50%), url('https://assets.nflxext.com/ffe/siteui/v2/3f0c846c-548d-42a2-9a3e-488391a141bc/0a8e1cbb-5f9e-48f6-b225-5981935015e3/CH-en-20230320-popsignuptwoweeks-perspective_alpha_website_large.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 3rem 1rem;
+    }
+    .display-4 {
+        font-size: 2.5rem;
+    }
+}
